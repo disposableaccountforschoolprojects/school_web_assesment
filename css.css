@@ -38,7 +38,9 @@
     --testing: #00e1ff;
     --fade: linear-gradient(180deg,var(--lavender) 0%, rgba(116, 199, 236, 0) 100%);
     --building-background:#1f1539;
+
     --header-color: #1e1e2ebd;
+    --about_me-color: #9399b2bb;
 
     /*rounded corners*/
     --r-corners: 64px;
@@ -65,16 +67,24 @@ html {
 
 ::-webkit-scrollbar {
     width: 0px;
+    margin-top: -120px;
     background: transparent; /* make scrollbar transparent */
 
 }
 
-#header_con {
-    display: none;
+.header_bar {
+    /* opacity: 0; */
+    top: -120px;
+    transition: top 0.5s;
+}
+
+.header_con_down {
+    top: -0px !important;
+    transition: top 0.5s !important;
 }
 
 header {
-    z-index: 100000;
+    z-index: 100000 !important;
     width: 100%;
     background-color: var(--header-color);
     display: flex;
@@ -371,4 +381,75 @@ footer .flex {
 
 #footer_name {
     font-size: 256px;
+}
+
+
+#about_me {
+    backdrop-filter: blur(12px);
+    border-width: 0px;
+    background-color: var(--about_me-color);
+    padding: 84px;
+    max-width: 1080px;
+    margin: auto auto;
+}
+
+
+#about_me h1 {
+    
+    font-size: 48px;
+    color: var(--sapphire);  
+}
+
+
+#about_me p {
+    color: var(--text);  
+    font-size: 24px;
+}
+
+.projects {
+    margin: 56px auto;
+    max-width: 840px;
+
+}
+
+.projects section{
+    
+    max-width: 420px;
+}
+
+.projects h1 {
+    padding: 24px;
+    color: var(--blue);
+    font-size: 56px;
+}
+
+.projects h2 {
+    padding: 24px;
+    color: var(--blue);
+    font-size: 48px;
+}
+
+.projects p {
+    padding: 24px;
+    color: var(--text);
+    font-size: 28px;
+}
+
+.project_img {
+    padding: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.project_h2_red {
+    color: var(--red) !important;
+}
+
+.project_h2_green {
+    color: var(--green) !important;
+    
+}
+
+.project_h2_lavender {
+    color: var(--lavender) !important;
 }

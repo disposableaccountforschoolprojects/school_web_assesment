@@ -1,26 +1,26 @@
-
-var header_bar = document.getElementById('header_con');
-
 let headerContent = `
-<header>
+<header class="header_bar">
   <div class="flex">
     <a href="index.html">
       <img class="logo small" src="images/Website-logo.svg" alt = "logo">
     </a>
+
+    <a href="index.html">
     <h2 id = "header_name">ADEN LEE</h2>
+    </a>
   </div>
 
   <nav class="navi">
 
-    <a href="https://example.com">
+    <a href="other-projects.html">
       Other projects
     </a>
 
-    <a href="https://duckduckgo.com">
+    <a href="future-projects.html">
       Future projects
     </a>
 
-    <a href="https://figma.com">
+    <a href="about-me.html">
       About Me  
     </a>
   </nav>
@@ -33,9 +33,13 @@ document
 
 
 onscroll = (event) => {
+  var header_bar = document.querySelector('.header_bar');
   if (window.scrollY === 0) {
-    header_bar.style.display = "none";
+    // header_bar.style.opacity = "0";
+    
+    header_bar.classList.remove('header_con_down');
   } else {
-    header_bar.style.display = "block";
+    // header_bar.style.opacity = "1";
+    header_bar.classList.add('header_con_down');
   }
 }

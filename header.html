@@ -1,22 +1,27 @@
+
+var header_bar = document.getElementById('header_bar');
+
 let headerContent = `
 <header>
-  <a href="index.html">
-    <img class="logo small" src="images/Website-logo.svg" alt = "logo">
-    <h2>ADEN LEE</h2>
-  </a>
+  <div class="flex">
+    <a href="index.html">
+      <img class="logo small" src="images/Website-logo.svg" alt = "logo">
+    </a>
+    <h2 id = "header_name">ADEN LEE</h2>
+  </div>
 
   <nav class="navi">
 
-    <a href="https://example.com">
-      <button>Other projects</button>
+    <a href="other-projects.html">
+      Other projects
     </a>
 
-    <a href="https://example.com">
-      <button>Future projects</button>
+    <a href="https://duckduckgo.com">
+      Future projects
     </a>
 
-    <a href="https://example.com">
-      <button>About Me</button>
+    <a href="about-me.html">
+      About Me  
     </a>
   </nav>
 </header>
@@ -24,3 +29,16 @@ let headerContent = `
 document
   .querySelector("#header_con")
   .insertAdjacentHTML("beforeend", headerContent);
+
+
+
+onscroll = (event) => {
+  if (window.scrollY === 0) {
+    // header_bar.style.opacity = "0";
+    
+    header_bar.style.top = "100px"
+  } else {
+    // header_bar.style.opacity = "1";
+    header_bar.style.top = "0px"
+  }
+}
