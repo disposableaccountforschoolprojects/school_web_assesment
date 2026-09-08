@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="3072"
-   height="1920"
-   viewBox="0 0 3072 1920"
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
    sodipodi:docname="Background - Better.svg"
    inkscape:export-filename="Background - Better.png"
    inkscape:export-xdpi="96"
@@ -28,12 +28,12 @@
      inkscape:deskcolor="#3a3a3a"
      inkscape:document-units="px"
      inkscape:zoom="0.31315104"
-     inkscape:cx="1536"
-     inkscape:cy="1068.1746"
+     inkscape:cx="1179.9418"
+     inkscape:cy="617.91269"
      inkscape:window-width="1920"
-     inkscape:window-height="1005"
+     inkscape:window-height="1009"
      inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:window-y="44"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -1026,7 +1026,7 @@
      id="layer1">
     <g
        id="g51-7"
-       transform="matrix(1.0354562,0,0,1.0354562,-1998.6939,1003.5564)">
+       transform="matrix(0.64554194,0,0,0.64554194,-1241.2594,508.65494)">
       <path
          d="m 2180.3707,848.59103 -38.5444,-42.25564 v -105.7404 l 38.5444,-44.78238"
          style="fill:url(#linearGradient53);stroke:#0c1a4a;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;paint-order:fill markers stroke"
@@ -1070,7 +1070,7 @@
     </g>
     <g
        id="g15-2"
-       transform="matrix(0.63689872,0,0,0.63689872,-624.77682,1466.6275)">
+       transform="matrix(0.39706637,0,0,0.39706637,-384.70829,797.3507)">
       <rect
          style="fill:#08bfe8;fill-opacity:1;stroke:#1e42bb;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect15-9"
@@ -1223,7 +1223,7 @@
     </g>
     <g
        id="g10"
-       transform="matrix(1.0588779,0,0,1.0588779,-49.91465,776.41187)"
+       transform="matrix(0.66014391,0,0,0.66014391,-26.317822,367.04459)"
        style="stroke-width:1.16283">
       <path
          id="rect4"
@@ -1283,7 +1283,7 @@
     </g>
     <g
        id="g15-20"
-       transform="matrix(0.96512958,0,0,0.96512958,-850.39606,797.66264)">
+       transform="matrix(0.60169771,0,0,0.60169771,-525.36774,380.29311)">
       <rect
          style="fill:#08bfe8;fill-opacity:1;stroke:#1e42bb;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect15-01"
@@ -1423,7 +1423,7 @@
     </g>
     <g
        id="g15-20-3"
-       transform="matrix(0.96512958,0,0,0.96512958,385.92921,1024.6208)">
+       transform="matrix(0.60169771,0,0,0.60169771,245.40347,521.78728)">
       <rect
          style="fill:#08bfe8;fill-opacity:1;stroke:#1e42bb;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect15-01-9"
@@ -1575,7 +1575,7 @@
     </g>
     <g
        id="g15-20-3-2"
-       transform="matrix(0.96512958,0,0,0.96512958,231.32012,748.81931)">
+       transform="matrix(0.60169771,0,0,0.60169771,149.01441,349.84236)">
       <rect
          style="fill:#08bfe8;fill-opacity:1;stroke:#1e42bb;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect15-01-9-8"
@@ -1785,7 +1785,7 @@
     </g>
     <g
        id="g44"
-       transform="translate(-418,840)">
+       transform="matrix(0.62343723,0,0,0.62343723,-255.79593,406.6878)">
       <g
          id="g35-0-6-5"
          transform="matrix(0.70261003,0,0,0.75698865,997.72291,189.781)">
@@ -1867,7 +1867,7 @@
     </g>
     <g
        id="g31"
-       transform="matrix(1.1659501,0,0,1.1659501,-269.8892,660.77389)">
+       transform="matrix(0.7268967,0,0,0.7268967,-163.45815,294.95156)">
       <path
          id="rect28"
          style="fill:#130c25;fill-opacity:1;stroke:#631010;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
@@ -1935,7 +1935,7 @@
     </g>
     <g
        id="g28"
-       transform="translate(4.6874902e-8,840)">
+       transform="matrix(0.62343723,0,0,0.62343723,4.8008287,406.6878)">
       <path
          id="rect11"
          style="fill:#140c25;stroke:url(#linearGradient12);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;paint-order:fill markers stroke"
@@ -2085,7 +2085,7 @@
     </g>
     <g
        id="g13"
-       transform="translate(-750,840)">
+       transform="matrix(0.62343723,0,0,0.62343723,-462.7771,406.6878)">
       <path
          id="rect13"
          style="fill:#f6062e;stroke:#9aaeef;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
@@ -2133,7 +2133,7 @@
     </g>
     <g
        id="g13-6"
-       transform="matrix(-0.58534603,0,0,0.58534603,2710.2891,1287.8263)">
+       transform="matrix(-0.36492651,0,0,0.36492651,1694.4959,685.87938)">
       <path
          id="rect13-4"
          style="fill:#f6062e;stroke:#9aaeef;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
@@ -2182,13 +2182,13 @@
     <rect
        style="fill:#100b20;fill-opacity:1;stroke:#173393;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
        id="rect14"
-       width="101.02247"
-       height="961.81812"
-       x="2671.0193"
-       y="815.83887" />
+       width="62.981171"
+       height="599.63318"
+       x="1670.0137"
+       y="391.62485" />
     <g
        id="g2"
-       transform="translate(166)">
+       transform="matrix(0.62343723,0,0,0.62343723,108.29141,-116.99948)">
       <g
          id="g26"
          transform="matrix(0.92208027,0,0,0.92208027,113.99332,924.15326)">
@@ -2282,7 +2282,7 @@
     </g>
     <g
        id="g16"
-       transform="translate(-82.739502,458.63782)">
+       transform="matrix(0.62343723,0,0,0.62343723,-46.782056,168.93241)">
       <rect
          style="fill:#1b1335;fill-opacity:1;stroke:#173393;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
          id="rect15"
@@ -2483,7 +2483,7 @@
     </g>
     <g
        id="g51"
-       transform="matrix(-2.0540601,0,0,2.0540601,6790.663,103.19882)">
+       transform="matrix(-1.2805775,0,0,1.2805775,4238.3529,-52.661497)">
       <path
          d="m 2180.3707,848.59103 -38.5444,-42.25564 v -105.7404 l 38.5444,-44.78238"
          style="fill:url(#linearGradient46);stroke:#0c1a4a;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;paint-order:fill markers stroke"
@@ -2527,17 +2527,16 @@
     </g>
     <path
        id="rect19-5"
-       style="fill:#100d20;stroke:#6eb2e4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke;fill-opacity:1;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2706.713,193.32952 7.4089,-64 7.4088,-10 7.4088,10 7.4087,64 v 179.5521 h -29.6351 z"
-       sodipodi:nodetypes="cccccccc" />
+       style="fill:#100d20;fill-opacity:1;stroke:#6eb2e4;stroke-width:2.49375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 1692.6738 -9.4885991e-08 L 1692.2656 3.5292968 L 1692.2656 115.46875 L 1710.7422 115.46875 L 1710.7422 3.5292968 L 1710.334 -9.4885991e-08 L 1692.6738 -9.4885991e-08 z " />
     <path
        id="rect19"
-       style="fill:#0b0916;stroke:#6eb2e4;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke;fill-opacity:1;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2691.8955,426.88162 14.8175,-64 14.8176,-10 14.8175,10 14.8175,64 v 179.5521 h -59.2701 z"
+       style="fill:#0b0916;fill-opacity:1;stroke:#6eb2e4;stroke-width:3.11718;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1683.0286,149.13442 9.2379,-39.89998 9.2378,-6.23437 9.2377,6.23437 9.2379,39.89998 v 111.93946 h -36.9513 z"
        sodipodi:nodetypes="cccccccc" />
     <g
        id="g14"
-       transform="translate(-264.2036,841.1707)">
+       transform="matrix(0.62343723,0,0,0.62343723,-159.91353,407.41766)">
       <path
          id="rect2"
          style="fill:#0b0d1e;stroke:#173393;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
@@ -2765,17 +2764,17 @@
     <path
        id="rect18"
        style="fill:#191335;fill-opacity:1;stroke:#6ee4b6;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
-       d="m 2515.9418,799.70332 36.8835,-168.18882 99.106,-32.45749 69.5992,-8.85204 69.5992,8.85204 99.106,32.45749 36.8835,168.18882 -155.0775,32.2711 h -101.0225 z"
+       d="m 1573.3326,381.56535 22.9945,-104.85518 61.7864,-20.23521 43.3907,-5.51868 43.3907,5.51868 61.7864,20.23521 22.9946,104.85518 -96.6812,20.119 h -62.9811 z"
        sodipodi:nodetypes="cccccccccc" />
     <path
        id="rect18-1"
        style="fill:#100c21;fill-opacity:1;stroke:#6ee4b6;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
-       d="m 2515.9418,799.70332 36.8835,-168.18882 h 337.4104 l 36.8835,168.18882 z"
+       d="m 1573.3326,381.56535 22.9945,-104.85518 h 210.3542 l 22.9946,104.85518 z"
        sodipodi:nodetypes="ccccc" />
     <path
        id="rect18-1-4"
        style="fill:#254154;fill-opacity:1;stroke:#6ee4b6;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke"
-       d="m 2515.9418,755.70332 18.4418,-84.09441 h 374.2939 l 18.4417,84.09441 z"
+       d="m 1573.3326,354.1341 11.4972,-52.42757 h 233.3489 l 11.4972,52.42757 z"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#2a2554;fill-opacity:1;stroke:#6ee4b6;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
@@ -2783,17 +2782,17 @@
        id="path21"
        inkscape:path-effect="#path-effect21"
        inkscape:original-d="m 2534.3836,715.60891 c 124.7646,0 249.5293,0 374.2939,0"
-       transform="translate(0,-44)" />
+       transform="matrix(0.62343723,0,0,0.62343723,4.8008287,-144.43072)" />
     <path
        style="fill:#2a2554;fill-opacity:1;stroke:#6ee4b6;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        d="m 2515.9418,799.70332 c 137.0591,0 274.1183,0 411.1774,0"
        id="path22"
        inkscape:path-effect="#path-effect22"
        inkscape:original-d="m 2515.9418,799.70332 c 137.0591,0 274.1183,0 411.1774,0"
-       transform="translate(0,-44)" />
+       transform="matrix(0.62343723,0,0,0.62343723,4.8008287,-144.43072)" />
     <g
        id="g7"
-       transform="matrix(1.3140659,0,0,1.3140659,-445.15111,500.80878)">
+       transform="matrix(0.8192376,0,0,0.8192376,-272.72294,195.22337)">
       <g
          id="g35"
          transform="translate(-0.44512194,27.345296)">
@@ -2952,7 +2951,7 @@
     </g>
     <g
        id="g43"
-       transform="matrix(0.96512958,0,0,0.96512958,-850.39606,797.66264)">
+       transform="matrix(0.60169771,0,0,0.60169771,-525.36774,380.29311)">
       <rect
          style="fill:#08bfe8;fill-opacity:1;stroke:#1e42bb;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect3"

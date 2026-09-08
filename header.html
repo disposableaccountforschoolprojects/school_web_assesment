@@ -1,0 +1,26 @@
+let headerContent = `
+<header>
+  <a href="index.html">
+    <img class="logo small" src="images/Website-logo.svg" alt = "logo">
+    <h2>ADEN LEE</h2>
+  </a>
+
+  <nav class="navi">
+
+    <a href="https://example.com">
+      <button>Other projects</button>
+    </a>
+
+    <a href="https://example.com">
+      <button>Future projects</button>
+    </a>
+
+    <a href="https://example.com">
+      <button>About Me</button>
+    </a>
+  </nav>
+</header>
+`;
+document
+  .querySelector("#header_con")
+  .insertAdjacentHTML("beforeend", headerContent);

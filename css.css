@@ -29,25 +29,95 @@
     --crust: #11111b;
 
     /*other colors */
+    --castcom-background: #eefcff;
+    --castcom-background-fake-gradient: 
+    linear-gradient(40deg, var(--castcom-background) 0%, var(--castcom-background) 100%);
     --castcom-primary: #541EFF;
     --castcom-secondary: #0094FF;
-    --castcom-gradient: linear-gradient(40deg, var(--castcom-primary) 0%, var(--castcom-secondary) 100%);
+    --castcom-gradient: linear-gradient(40deg,  var(--castcom-primary) 0%, var(--castcom-secondary) 100%);
     --testing: #00e1ff;
+    --fade: linear-gradient(180deg,var(--lavender) 0%, rgba(116, 199, 236, 0) 100%);
+    --building-background:#1f1539;
+    --header-color: #1e1e2ebd;
 
+    /*rounded corners*/
+    --r-corners: 64px;
 }
 
 @font-face {
     font-family: "maple mono";
     src: url("MapleMono-TTF/MapleMono-Regular.ttf");
-
-    
 }
 
 * {
+    overflow-x: hidden;
     font-family: maple mono;
     margin: 0px;
     padding: 0px;
     font-weight: 900;
+}
+
+html {
+    color: var(--text);
+    overflow-y:   scroll;
+    background-color: var(--crust);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+
+}
+
+#header_con {
+    display: none;
+}
+
+header {
+    z-index: 100000;
+    width: 100%;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+
+header a {
+    color: var(--text);
+}
+
+
+.navi {
+    display: flex;
+}
+
+.navi a {
+    margin: auto 24px;
+    padding: 12px 12px;
+    text-decoration: underline;
+    background-color: transparent;
+    color: var(--text);
+    font-size: 24px;
+}
+
+
+.navi a:hover {
+    text-decoration: none;
+    color: var(--overlay1);
+
+}
+
+
+.navi a:active {
+    color: var(--overlay2);
+
+}
+
+#header_name {
+    margin: auto;
+    font-size: 72px;
+    color: var(--sky);
 }
 
 .flex {
@@ -56,23 +126,38 @@
 
 .background_img {
     background-attachment: fixed;
-    height: 100vw;
-    background-repeat: no-repeat ;
+    height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover;
+    justify-content: space-between;
 }
 
 #main_pg_banner{
+    overflow-y: hidden;
     background-image: url(images/Background\ -\ Better.svg);
-    padding: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 #main_pg_banner h1 {
     color: var(--sky);
-    font-size: 96px;
+    font-size: 144px;
 }
 
 #main_pg_banner p {
     color: var(--text);
+    font-size: 48px;
+}
+
+#main_pg_banner h2 {
+    color: var(--text);
+    font-size: 28px;
+}
+
+
+#main_pg_banner .landing {
+    padding: 32px;
+    background-image: var(--fade);
 }
 
 #sky_pg_banner{
@@ -81,6 +166,209 @@
 
 .logo {
     width: 256px;
+    margin: 54px;
+    animation: spin 20s infinite linear;
+}
+
+.small{
+    width: 84px !important;
+    margin: 12px 24px !important;
 }
 
 
+#foreground{
+    overflow-x: hidden;
+    margin-bottom: -10px;
+    border-width: 0px;
+}
+
+
+@keyframes spin {
+    0% {rotate: 0deg;}
+    100% {rotate: 360deg;}
+}
+
+.main_content {
+    padding: 42px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    background: var(--building-background);
+
+}
+
+#whoami {
+    margin: auto;
+    max-width: 1512px;
+    justify-content: center;
+}
+
+#whoami .r_box {
+    margin: 20px;
+    max-width: 640px;
+}
+
+.r_box {
+    background-color: var(--base);
+    padding: 40px;
+    border: var(--text) 12px solid;
+    border-radius: var(--r-corners);
+    box-shadow: 0px 0px 32px var(--crust);
+}
+
+#whoami h2 {
+    font-size: 40px;
+    color: var(--blue);
+
+}
+
+#whoami p {
+    font-size: 24px;
+
+}
+
+#castcom {
+    border: 8px solid transparent;
+    margin: 64px auto 64px auto;
+    max-width: 1080px;
+    border-radius: var(--r-corners);
+    background: 
+    var(--castcom-background-fake-gradient)  padding-box,
+    var(--castcom-gradient) border-box;
+}
+
+#castcom h2 {
+    font-size: 48px;
+    background:var(--castcom-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+#castcom p {
+    padding: 20px;
+    max-width: 448px;
+    font-size: 24px;
+    background:var(--castcom-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+#castcom img {
+    border: 8px solid transparent;
+    width: 448px;
+    margin: 32px;
+    box-shadow: 0px 0px 16px var(--crust);
+    border-radius: var(--r-corners);
+    background: 
+    var(--castcom-background-fake-gradient)  padding-box,
+    var(--castcom-gradient) border-box;
+}
+
+
+#pcsq{
+    margin:100px ;
+    justify-content: center;
+}
+
+#pcsq .r_box {
+    background-color: var(--base);
+    border-color: var(--crust);
+    max-width: 448px;
+    margin: 24px;
+}
+
+#pcsq h2 {
+    font-size: 40px;
+    color: var(--green);
+    
+}
+
+#pcsq p {
+    font-size: 24px;
+
+}
+
+#output {
+    font-size: 20px !important;
+}
+
+#cracks {
+    margin-bottom: 128px;
+}
+
+#game {
+    max-width: 840px;
+    margin: auto;
+}
+
+#game h2 {
+    color: var(--blue);
+    font-size: 48px;
+    padding: 12px;
+}
+
+#game img {
+    max-width: 100%;
+    border-radius: 32px;
+    border: var(--text) 8px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin: 12px;
+    border-width: 0px;
+    padding: 12px 48px;
+    border-radius: 32px;
+    background-color: var(--text);
+    color: var(--crust);
+    text-decoration: none;
+    font-size: 28px;
+    transition-duration: 100ms;
+}
+
+button:hover {
+    transition-duration: 100ms;
+    background-color: var(--overlay1);
+}
+
+
+
+button:active {
+    transition-duration: 100ms;
+    background-color: var(--overlay2);
+}
+
+footer {
+    padding: 128px;
+}
+
+footer p {
+    font-size: 24px;
+    color: var(--sky);
+}
+
+footer a {
+    font-size: 32px;
+    color: var(--text);
+}
+
+footer h2 {
+    font-size: 48px;
+    color: var(--text);
+}
+
+footer .flex {
+    justify-content:space-between;
+}
+
+.footer_links {
+    font-size: 24px;
+}
+
+#footer_name {
+    font-size: 256px;
+}
