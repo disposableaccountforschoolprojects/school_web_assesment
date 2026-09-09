@@ -453,3 +453,32 @@ footer .flex {
 .project_h2_lavender {
     color: var(--lavender) !important;
 }
+
+#mfp {
+    margin: 100px auto;
+    text-align: center;
+}
+
+#mfp h1 {
+   font-size: 144px;
+   color: var(--blue);
+}
+
+#mfp p {
+    margin: auto;
+    max-width: 480px;
+    font-size: 40px;
+}
+
+#secret {
+    background-color: var(--overlay1);
+    height: 320px;
+    width: 320px;
+    font-size: 56px;
+    color: var(--base);
+    border-radius: 32px;
+}
+#secret p{
+    font-size: 144px;
+    text-align: center;
+}
