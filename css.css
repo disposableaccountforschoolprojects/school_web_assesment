@@ -380,7 +380,9 @@ footer .flex {
 }
 
 #footer_name {
-    font-size: 256px;
+    margin: auto;
+    background-color: transparent;
+    font-size: 12vw;
 }
 
 
