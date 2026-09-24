@@ -1,3 +1,4 @@
+// The footer html that is going to be enjected into the website
 let footerContent = `
 <footer>
     <div class="flex">
@@ -22,6 +23,8 @@ let footerContent = `
     </div>
 </footer>
 `;
+
+// selects the div and insets a the code in it
 document
   .querySelector("#footer_con")
   .insertAdjacentHTML("beforeend", footerContent);

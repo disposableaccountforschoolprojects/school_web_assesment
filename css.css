@@ -41,18 +41,22 @@
     --building-background:#1f1539;
 
     --header-color: #1e1e2ebd;
-    --about_me-color: #9399b2bb;
+    --about_me-color: #1e1e2ee2;
 
-    /*rounded corners*/
+    /*rounded corners value*/
     --r-corners: 64px;
 }
 
-/* loads in custom font */
+/* loads in custom font maple mono from ttf font file */
+/* this font doesn't apper in google fonts thus it needs to be loading in via a ttf file */
 @font-face {
     font-family: "maple mono";
     src: url("MapleMono-TTF/MapleMono-Regular.ttf");
 }
 
+/* default values applied to all elements */
+/* it removes anoyying default margin and padding */
+/* and adds  maple mono as the default font */
 * {
     overflow-x: hidden;
     font-family: maple mono;
@@ -61,13 +65,15 @@
     font-weight: 900;
 }
 
-html {
+/* sets the background color and text color of the body */
+body {
     color: var(--text);
     overflow-y:   scroll;
     background-color: var(--crust);
 }
 
-/* hides scroll bars */
+/* hides scroll bars to provide a more visually pleasing experience */
+/* because the scroll bars can mess with them */
 ::-webkit-scrollbar {
     width: 0px;
     margin-top: -120px;
@@ -75,37 +81,50 @@ html {
 
 }
 
+/* makes any thing with the class flex display flex */
+.flex {
+    display: flex;
+}
 
+/* HEADER ELEMENTS HERE */
+
+/* the default state of the bar at top of page */
 .header_bar {
-    /* opacity: 0; */
     top: -120px;
     transition: top 0.5s;
 }
 
+/* class added by header.js when not at top of page */
 .header_con_down {
     top: -0px !important;
     transition: top 0.5s !important;
 }
 
+/* defines the header looks */
 header {
+    /* makes the header very high in the z axis to prevent it from hiding under the page elemnts */
     z-index: 100000 !important;
+
     width: 100%;
     background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     position: fixed;
+    /* adds a blur to the header to astetic purposes */
     backdrop-filter: blur(10px);
 }
 
+/* forces the header link text to be --text varible */
 header a {
     color: var(--text);
 }
 
-
+/* navigational bar */
 .navi {
     display: flex;
 }
 
+/* navigational style  */
 .navi a {
     margin: auto 24px;
     padding: 12px 12px;
@@ -115,29 +134,29 @@ header a {
     font-size: 24px;
 }
 
-
+/* defines what happens when the navi bar is hovered over */
 .navi a:hover {
     text-decoration: none;
     color: var(--overlay1);
 
 }
 
-
+/* defines what happens when the navi bar is clicked */
 .navi a:active {
     color: var(--overlay2);
 
 }
 
+/* the ADEN LEE in the header bar style */
 #header_name {
     margin: auto;
     font-size: 72px;
     color: var(--sky);
 }
 
-.flex {
-    display: flex;
-}
+/* MAIN PAGE STUFF */
 
+/* makes the background fixed and cover the entire screen */
 .background_img {
     background-attachment: fixed;
     height: 100vh;
@@ -146,12 +165,21 @@ header a {
     justify-content: space-between;
 }
 
+/* adds the buildings background image */
 #main_pg_banner{
     overflow-y: hidden;
     background-image: url(images/Background\ -\ Better.svg);
     display: flex;
     flex-direction: column;
 }
+
+/* adds the sky background image */
+#sky_pg_banner{
+    background-image: url(images/Sky.svg);
+}
+
+
+/* styles of the text on the header page */
 
 #main_pg_banner h1 {
     color: var(--sky);
@@ -168,33 +196,39 @@ header a {
     font-size: 28px;
 }
 
-
+/* adds a fade to the text to make it blend in less with the background and thus easier to read */
 #main_pg_banner .landing {
     padding: 32px;
     background-image: var(--fade);
 }
 
+/* makes the text invert to make it readable */
 .landing h2 {
     color: var(--text);
     mix-blend-mode: difference;
 }
 
-#sky_pg_banner{
-    background-image: url(images/Sky.svg);
-}
-
+/* defines sizes and margins of the logo, and adds a animation to it to make it spin forever */
 .logo {
     width: 256px;
     margin: 54px;
     animation: spin 20s infinite linear;
 }
 
+/*logo spin animation*/
+@keyframes spin {
+    0% {rotate: 0deg;}
+    100% {rotate: 360deg;}
+}
+
+/* for logo makes it small */
 .small{
     width: 84px !important;
     margin: 12px 24px !important;
 }
 
 
+/* the decorative buildings  */
 #foreground{
     overflow-x: hidden;
     margin-bottom: -10px;
@@ -203,11 +237,7 @@ header a {
 }
 
 
-@keyframes spin {
-    0% {rotate: 0deg;}
-    100% {rotate: 360deg;}
-}
-
+/* styles for the main content */
 .main_content {
     padding: 42px;
     margin-top: 0px;
@@ -215,6 +245,19 @@ header a {
     background: var(--building-background);
 
 }
+
+
+/* standard round box that contains content */
+.r_box {
+    background-color: var(--base);
+    padding: 40px;
+    border: var(--text) 12px solid;
+    border-radius: var(--r-corners);
+    box-shadow: 0px 0px 32px var(--crust);
+}
+
+
+/* who am I part of main page */
 
 #whoami {
     margin: auto;
@@ -227,14 +270,6 @@ header a {
     max-width: 640px;
 }
 
-.r_box {
-    background-color: var(--base);
-    padding: 40px;
-    border: var(--text) 12px solid;
-    border-radius: var(--r-corners);
-    box-shadow: 0px 0px 32px var(--crust);
-}
-
 #whoami h2 {
     font-size: 40px;
     color: var(--blue);
@@ -245,6 +280,9 @@ header a {
     font-size: 24px;
 
 }
+
+
+/* castcom part */
 
 #castcom {
     border: 8px solid transparent;
@@ -288,6 +326,8 @@ header a {
 }
 
 
+/* pcsq stands for Python Cyber Securtiy Quiz */
+/* this part is for the python cyber security quiz */
 #pcsq{
     margin:100px ;
     justify-content: center;
@@ -319,9 +359,15 @@ header a {
     font-size: 12px !important;
 }
 
+
+/* decorative cracks */
+
 #cracks {
     margin-bottom: 128px;
 }
+
+
+/*game part */
 
 #game {
     max-width: 840px;
@@ -342,6 +388,9 @@ header a {
     margin-right: auto;
 }
 
+
+/* button styles */
+
 button {
     margin: 12px;
     border-width: 0px;
@@ -360,11 +409,13 @@ button:hover {
 }
 
 
-
 button:active {
     transition-duration: 100ms;
     background-color: var(--overlay2);
 }
+
+
+/* footer styles */
 
 footer {
     padding: 128px;
@@ -400,6 +451,8 @@ footer .flex {
 }
 
 
+/* about me part */
+
 #about_me {
     backdrop-filter: blur(12px);
     border-width: 0px;
@@ -421,6 +474,9 @@ footer .flex {
     color: var(--text);  
     font-size: 24px;
 }
+
+
+/* projects part */
 
 .projects {
     margin: 56px auto;
@@ -457,6 +513,7 @@ footer .flex {
     height: auto;
 }
 
+/* color variants for different projects */
 .project_h2_red {
     color: var(--red) !important;
 }
@@ -469,6 +526,9 @@ footer .flex {
 .project_h2_lavender {
     color: var(--lavender) !important;
 }
+
+/* MFP stands for My Future Projects */
+/* my future projects part */
 
 #mfp {
     margin: 100px auto;
@@ -486,6 +546,9 @@ footer .flex {
     font-size: 40px;
 }
 
+
+/* secret game part */
+
 #secret {
     background-color: var(--overlay1);
     height: 320px;
@@ -494,6 +557,7 @@ footer .flex {
     color: var(--base);
     border-radius: 32px;
 }
+
 #secret p{
     font-size: 144px;
     text-align: center;

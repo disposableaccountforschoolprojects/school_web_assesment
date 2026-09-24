@@ -7,13 +7,23 @@
         <link rel="stylesheet" href="css.css">
     </head>
     <body>
+
+        <!-- header loader -->
+        <!-- loads the header into the page from header.js -->
         <div id="header_con"></div>
         <script src="header.js"></script>
+
+        <!-- main stuff of page -->
         <main>
+            <!-- sky layer of the hero image -->
             <div class="background_img" id="sky_pg_banner">
+                <!-- buildings layer of the hero image -->
                 <div class="background_img" id="main_pg_banner">
+
                     <div class="flex landing">
+
                         <section>
+                            <!-- introduction to me and text of the landing page -->
                             <p>HELLO I AM</p>
                             <h1>ADEN LEE</h1>
                             <h2>
@@ -21,18 +31,27 @@
                                 I like to study coding and electronics 
                             </h2>
                         </section>
+                        
+                        <!-- logo of the website -->
                         <img src="images/Website-logo.svg" class="logo" alt="websites logo">
                     </div>
+
+                    <!-- decorative buildings to make a smoother transiton from the header image 
+                    the actual content -->
                     <img src="images/foreground.svg" id="foreground" alt="">
                     
-                            
                 </div>
             </div>
+
+            <!-- the actual content after the hero images -->
             <div class="main_content">
-                        
+                
+                <!-- a more indept introduction about me -->
                 <div class="flex" id="whoami">
                     <section class="r_box" >
+                        <!-- header -->
                         <h2>Who am I</h2>
+                        <!-- content -->
                         <p>Hello I am Aden Lee, I am a school student 
                             who wants to study computer science. 
                             I have a passion for coding, computers 
@@ -40,32 +59,48 @@
                             coding projects in a and out of school.  I've
                             design websites, games and python programs</p>
                     </section>
-                    
-                    <img src="images/Website-logo.svg" class="logo" alt="websites logo">    
+                    <!-- the website logo again -->
+                    <img src="images/Website-logo.svg" class="logo" alt="websites logo">   
+
                 </div>
+
+                <!-- castcom section of my website, my year 11 ncea assesment website castcom -->
                 <section class="r_box" id="castcom">
+                    <!-- header -->
                     <h2>CASTCOM MY YEAR 11 NCEA PROJECT</h2>
+                    <!-- flex box -->
                     <div class="flex">
+                        <!-- image of the castcom website i made -->
                         <div>
                             <img src="images/castcom-one.png" alt="image of my website castcom">
                         </div>
+                        <!-- description -->
                         <p>This is my website for my year 11 NCEA assessment. It's for a fictional ISP called Castcom (reverse of Comcast). It's minimalist and designed with conventions like aesthetics privacy ethical and functionality in mind. I followed a design scheme to use purple as the main color and blue as the secondary which helped me stay on a consistent modern theme. The assessment received  a excellence grade. I felt I did very well on it.</p>
                     </div>
                 </section>
+
+                <!-- python secutiry quiz -->
                 <div class="flex" id="pcsq">
                     <div>
+                        <!-- section explaining what the python cuber securtiy quiz is -->
                         <section class="r_box pcsq">
+                            <!-- header -->
                             <h2 class="pcsq">
                                 Python Cyber Security Quiz
                             </h2>
+                            <!-- content -->
                             <p>This is a cyber security quiz that I created as a assignment for a year 11 NCEA assignment for kids</p>
                         </section>
+
+                        <!--  a section with a screen shot of my script -->
+                        <!-- the image replaced a gif, due to the fact that the gifs are -->
+                        <!-- too big -->
                         <section class="r_box pcsq">
                             <img src="images/script.jpg" alt="My year 12 cyber security quiz python script "> 
                         </section>
                     </div>
                     
-
+                    <!-- a sample of the output produced by the quiz-->
                     <section class="r_box pcsq">
                         <p id = "output">
                             ----------------------- <br>
@@ -121,21 +156,28 @@
 
                 <!-- YEAR 12 Game section -->
                 <div class="r_box" id="game"> 
+                    <!-- header -->
                     <h2> Try my year 12 game I made in Godot <br> </h2>
                     <!-- play button that has _blank to open it in new page -->
                     <a href="big_cube_is_watching/bigcuber.html" target="_blank">
                         <button>Play The Game!</button>
                     </a>
-    
+                    
+                    <!-- image of my year 12 game -->
                     <img src="images/buildings.webp" alt="image of my year 12 game">
                 </div>
 
             </div>
+
+            <!-- decorative cracks -->
             <img src="images/cracks.svg" id="cracks" alt="">
             
         </main>
 
+        <!-- footer loader -->
+        <!-- loads the footer into the page from footer.js -->
         <div id="footer_con"></div>
         <script src="footer.js"></script>
+
     </body>
 </html>
